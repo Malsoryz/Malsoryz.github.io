@@ -14,7 +14,11 @@
     body{
       height: 100vh;
       width: 100vw;
-      background: url('https://img.freepik.com/free-vector/black-polygonal-shapes-background_1053-468.jpg?w=1060');
+      background-image: url('https://img.freepik.com/free-vector/black-polygonal-shapes-background_1053-468.jpg?w=1060');
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
     }
     nav{
       height: 60px;
@@ -24,20 +28,21 @@
       position: absolute;
       top: 0;
       left: 0;
-      background: #1A1A1A;
+      background: #000000bf;
+      backdrop-filter: blur(5px);
+      box-shadow: 0 0 10px #000000;
       padding-inline: 5vw;
     }
     nav>span{
       color: #fff;
       font-size: 2rem;
     }
-    body>h3{
+    body>h1{
       text-align: center;
       position: relative;
       top: 50%;
       transform: translateY(-50%);
       color: gray;
-      margin: 2rem;
     }
   </style>
 </head>
@@ -45,6 +50,6 @@
   <nav>
     <span>Malsoryz</span>
   </nav>
-  <h3>Masih Belum Tersedia</h3>
+  <h1>Masih Belum Tersedia</h1>
 </body>
 </html>
