@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image {
+  aspect-ratio: 2/1;
+}
