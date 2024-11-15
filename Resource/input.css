@@ -7,10 +7,17 @@
 }
 
 @layer components {
-  #content .item {
-    @apply w-full p-4 rounded-xl shadow-md;
+
+  .navbar {
+    @apply w-full shadow-md py-4 xl:px-16 lg:px-12 md:px-8 px-4 flex items-center;
   }
+
   #content {
     @apply w-full grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 pt-4 gap-8;
   }
+
+  #content .item-container {
+    @apply w-full p-4 rounded-xl shadow-md;
+  }
+
 }
