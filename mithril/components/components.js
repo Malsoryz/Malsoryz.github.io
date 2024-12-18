@@ -7,13 +7,13 @@ let navbar = {
 };
 
 let items = {
-	view: (vnode) => 
-		m("a",{"href":"https://github.com/Malsoryz"},[
-			m("div",{"class":"p-4 border rounded-md shadow-md bg-gray-100"},[
-				m("h1",{"class":"text-xl font-medium"},vnode.attrs.title),
-				m("span",{"class":"text-sm"},vnode.attrs.desc)
-			])
-		])
-}
+	view: (vnode) =>
+		m("a", { href: "#!/accordions" }, [
+			m("div", { class: "p-4 border rounded-md shadow-md bg-gray-100" }, [
+				m("h1", { class: "text-xl font-medium" }, vnode.attrs.title),
+				m("span", { class: "text-sm" }, vnode.attrs.desc),
+			]),
+		]),
+};
 
-export {navbar,items};
+export { navbar, items };
